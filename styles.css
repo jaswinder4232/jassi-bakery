@@ -404,7 +404,7 @@ nav ul li a {
     border: 1px solid #ddd;
     display: flex;
     align-items: center;
-    gap: 90px;
+    gap: 10px;
     height: 70vh;
         justify-content: space-around;
 }
