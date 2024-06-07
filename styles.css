@@ -404,7 +404,7 @@ nav ul li a {
     border: 1px solid #ddd;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 90px;
     height: 70vh;
 }
 
@@ -444,6 +444,12 @@ nav ul li a {
 
     .menu .menu-item {
         height: 100vh !important;
+    }
+}
+
+@media (max-width:860px) {
+    .menu-item {
+        gap: 10px !important;
     }
 }
 
