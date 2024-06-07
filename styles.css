@@ -388,6 +388,7 @@ nav ul li a {
 .menu {
     padding: 2rem;
     text-align: center;
+    height: 100vh;
 }
 
 .menu h2 {
@@ -404,7 +405,7 @@ nav ul li a {
     display: flex;
     align-items: center;
     gap: 10px;
-
+    height: 70vh;
 }
 
 .carousel-control-prev,
@@ -435,6 +436,14 @@ nav ul li a {
         height: 3rem;
         display: none !important;
         visibility: hidden !important;
+    }
+
+    .menu {
+        height: 130vh !important;
+    }
+
+    .menu .menu-item {
+        height: 100vh !important;
     }
 }
 
@@ -476,7 +485,7 @@ nav ul li a {
     object-fit: cover;
     max-width: 80%;
     min-width: 300px;
-    max-height: 600px;
+    max-height: 500px;
     border-radius: 10px;
 }
 
@@ -529,19 +538,19 @@ nav ul li a {
 }
 
 .first-pic {
-    background-image: url(muffins.jpeg);
+    background-image: url(muffins.jpg);
     object-fit: cover !important;
     background-size: cover;
 }
 
 .secnd-pic {
-    background-image: url(biskut.jpeg);
+    background-image: url(biskut.jpg);
     object-fit: cover !important;
     background-size: cover;
 }
 
 .third-pic {
-    background-image: url(urger.jpeg);
+    background-image: url(urger.jpg);
     object-fit: cover !important;
     background-size: cover;
 }
@@ -558,19 +567,19 @@ nav ul li a {
 }
 
 .first-pic1 {
-    background-image: url(fcake.jpeg);
+    background-image: url(fcake.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .secnd-pic2 {
-    background-image: url(donuts.jpeg);
+    background-image: url(donuts.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .third-pic3 {
-    background-image: url(smosa.jpeg);
+    background-image: url(smosa.jpg);
     background-size: cover;
     background-position: center;
 }
