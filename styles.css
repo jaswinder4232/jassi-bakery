@@ -406,6 +406,7 @@ nav ul li a {
     align-items: center;
     gap: 90px;
     height: 70vh;
+        justify-content: space-between;
 }
 
 .carousel-control-prev,
