@@ -388,7 +388,7 @@ nav ul li a {
 .menu {
     padding: 2rem;
     text-align: center;
-    height: 80vh;
+    height: 90vh;
 }
 
 .menu h2 {
@@ -452,6 +452,10 @@ nav ul li a {
     .menu-item {
         gap: 10px !important;
     }
+    .menu {
+        height: 80vh !important;
+    }
+
 }
 
 .menu-item div:nth-child(1) {
