@@ -220,6 +220,16 @@ nav ul li a {
     .menu .menu-item {
         flex-direction: column;
     }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: #f8b400;
+        /* Change this to your desired color */
+        border-radius: 50%;
+        width: 3rem;
+        height: 3rem;
+        display: none !important;
+    }
 }
 
 .menu-item div:nth-child(2) {
