@@ -15,6 +15,20 @@
 
 
 <body class="container-fluid">
+    <div id="sppiner">
+        <div class="spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <!-- Header Section -->
     <header>
         <img src="jassi_backry-removebg-preview.png" alt="">
@@ -28,6 +42,22 @@
             </ul>
         </nav>
 
+        <!-- Hamburger menu -->
+        <div class="containere" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <!-- Sidebar menu -->
+        <div id="myMenu" class="menuee">
+
+            <a href="# home">Home</a>
+            <a href="#about">About us</a>
+            <a href="#menu">Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact us</a>
+        </div>
 
     </header>
 
@@ -96,6 +126,18 @@
                         </div>
                     </div>
                 </div>
+                <div class="carousel-item add-card">
+
+                    <div class="menu-item">
+                        <div><img src="smosa.jpeg" alt=""></div>
+                        <div>
+                            <h3>smosa</h3>
+                            <p>Delicious indian smosa </p>
+                            <p>$2.00</p>
+                            <button>Order now</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#menuCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon text-dark " aria-hidden="true"></span>
@@ -110,10 +152,32 @@
 
     <!-- Gallery Section -->
     <section id="gallery" class="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery-item">
-            <img src="cake.jpg" alt="Delicious Cake">
+        <div class="gh2">
+            <h2>Gallery</h2>
         </div>
+        <div class="bakery-item">
+            <div class="first-pic">
+
+            </div>
+            <div class="secnd-pic">
+
+            </div>
+            <div class="third-pic">
+
+            </div>
+        </div>
+        <div class="bakery-item2">
+            <div class="first-pic1">
+
+            </div>
+            <div class="secnd-pic2">
+
+            </div>
+            <div class="third-pic3">
+
+            </div>
+        </div>
+
         <!-- Add more gallery items as needed -->
     </section>
 
@@ -138,17 +202,40 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Bakery Delight</p>
+        <p>&copy; 2024 jassi Bakery </p>
         <p>Follow us on <a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Twitter</a></p>
     </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+            var menu = document.getElementById("myMenu");
+            if (menu.style.width === "180px") {
+                menu.style.width = "0";
+            } else {
+                menu.style.width = "180px";
+            }
+        }
+
+        function closeNav() {
+            document.getElementById("myMenu").style.width = "0";
+            var container = document.querySelector('.containere');
+            if (container.classList.contains('change')) {
+                container.classList.remove('change');
+            }
+        }
 
 
-
+    </script>
+    <script>
+        let loader = document.getElementById("sppiner");
+        window.addEventListener("load", function () {
+            loader.style.display = "none"
+        })
     </script>
 </body>
 
