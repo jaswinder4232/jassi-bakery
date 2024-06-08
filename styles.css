@@ -197,6 +197,7 @@ header img {
 }
 .bar2{
     width:24px !important;
+    margin-left:3px !important;
 }
 
 .change .bar1 {
