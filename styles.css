@@ -195,6 +195,9 @@ header img {
     margin: 6px 0;
     transition: 0.4s;
 }
+.bar2{
+    width:24px !important;
+}
 
 .change .bar1 {
     transform: translate(0, 11px) rotate(-45deg);
