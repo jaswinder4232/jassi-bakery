@@ -172,9 +172,10 @@ h3 {
     width: calc(80%);
     object-fit: cover;
 }
-.place-oder img {
+@media (max-width:1024px) {
+    .place-oder img {
     height: calc(80%);
-    width: calc(80%);
+    width: calc(95%) !important;
     object-fit: cover;
 }
 #place-order-button {
