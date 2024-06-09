@@ -199,10 +199,6 @@ header img {
     width:24px !important;
         margin-left: 3px !important;
 }
-.bar1{
-    width:21px !important;
-        margin-left: 6px !important;
-}
 
 .change .bar1 {
     transform: translate(0, 11px) rotate(-45deg);
