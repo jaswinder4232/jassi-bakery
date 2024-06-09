@@ -172,7 +172,11 @@ h3 {
     width: calc(80%);
     object-fit: cover;
 }
-
+.place-oder img {
+    height: calc(80%);
+    width: calc(80%);
+    object-fit: cover;
+}
 #place-order-button {
     transition: all 0.5s ease;
     /* Add a transition effect */
