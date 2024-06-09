@@ -292,7 +292,7 @@ nav {
     justify-content: center;
     align-items: center;
     max-height: 100%;
-    height: calc(100%);
+    height:auto;
 }
 
 
