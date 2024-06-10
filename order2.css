@@ -169,7 +169,7 @@ h3 {
 
 .place-oder img {
     height: calc(80%);
-    width: calc(80%);
+    width: calc(95%);
     object-fit: cover;
     border-radius:20px
 }
