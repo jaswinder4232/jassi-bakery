@@ -166,11 +166,11 @@ h3 {
     padding: 5px;
     margin: 0px;
 }
-
 .place-oder img {
     height: calc(80%);
-    width: calc(80%);
+    width: calc(95%);
     object-fit: cover;
+    border-radius:20px
 }
 @media (max-width:1024px) {
     .place-oder img {
