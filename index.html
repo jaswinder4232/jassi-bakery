@@ -236,6 +236,12 @@
         window.addEventListener("load", function () {
             loader.style.display = "none"
         })
+        function scrollToTop() {
+    window.scrollTo(0, 0); // Scrolls to the top-left corner of the page
+}
+
+// Call the function when the page reloads
+window.addEventListener('load', scrollToTop);
     </script>
 </body>
 
